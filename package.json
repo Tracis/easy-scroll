@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tarun-dugar/easy-scroll.git"
+    "url": "git+https://github.com/Tracis/easy-scroll.git"
   },
   "keywords": [
     "smooth-scroll",
@@ -17,10 +17,10 @@
     "easing",
     "bezier"
   ],
-  "author": "Tarun Dugar",
+  "author": "Tracis",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tarun-dugar/easy-scroll/issues"
+    "url": "https://github.com/Tracis/easy-scroll/issues"
   },
   "babel": {
     "presets": [
@@ -28,7 +28,7 @@
       "react"
     ]
   },
-  "homepage": "https://github.com/tarun-dugar/easy-scroll#readme",
+  "homepage": "https://github.com/Tracis/easy-scroll#readme",
   "devDependencies": {
     "babel-core": "6.26.0",
     "babel-loader": "7.1.2",
