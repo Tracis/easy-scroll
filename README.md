@@ -21,11 +21,11 @@ Or you can load it via a script tag as follows:
 ## Importing
 ### ES6
 ```
-import easyScroll from 'easy-scroll';
+import easyScroll from '@sedan-utils/easy-scroll';
 ```
 ### CommonJS
 ```
-var easyScroll = require('easy-scroll');
+var easyScroll = require('@sedan-utils/easy-scroll');
 ```
 ### Global variable
 the variable `easyScroll` attached to `window` or `this` depending on what environment you are using
@@ -36,7 +36,7 @@ A function is exported by default which accepts an object with the following con
 |         Property       |                             Value                             |
 | ---------------------- | ------------------------------------------------------------- |
 | **scrollableDomEle** (required)     |           `window` or any other scrollable DOM element      |
-| **direction** (required)           |  the direction in which you want the element to scroll - top, left, bottom, right 
+| **direction** (required)           |  the direction in which you want the element to scroll - top, left, bottom, right
 | **duration** (required) | the duration in milliseconds over which you want the scrolling to happen |
 | **easingPreset** | linear(default), easeInQuad, easeOutQuad, easeInOutQuad, easeInCubic, easeOutCubic, easeInOutCubic, easeInQuart, easeOutQuart, easeInOutQuart, easeInQuint, easeOutQuint, easeInOutQuint |
 | **cubicBezierPoints** | object containing the 4 points to define a bezier curve <br/>{<br/>&nbsp;&nbsp;&nbsp;&nbsp;'x1': Number(>= 0 and <= 1),<br/>&nbsp;&nbsp;&nbsp;&nbsp;'y1': Number,<br/>&nbsp;&nbsp;&nbsp;&nbsp;'x2': Number(>= 0 and <= 1),<br/>&nbsp;&nbsp;&nbsp;&nbsp;'y2': Number<br/> }|
